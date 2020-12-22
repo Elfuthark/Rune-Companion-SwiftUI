@@ -15,4 +15,5 @@ struct Rune: Identifiable {
     var runeProperty: String
     var runeImage: String
     var runeDescription: String
+    var runeLink: String
 }

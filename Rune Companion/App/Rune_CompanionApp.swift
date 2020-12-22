@@ -11,7 +11,7 @@ import SwiftUI
 struct Rune_CompanionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

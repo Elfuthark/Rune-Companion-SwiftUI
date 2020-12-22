@@ -15,15 +15,25 @@
 		1E1973A425819A080004E648 /* Rune Stickers StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1E1973A325819A080004E648 /* Rune Stickers StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1E1973A825819A080004E648 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 1E1973A725819A080004E648 /* Stickers.xcstickers */; };
 		1E1973A925819A080004E648 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 1E1973A725819A080004E648 /* Stickers.xcstickers */; };
+		1E1CBB9A2591167E0001C51E /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CBB992591167E0001C51E /* ExternalWeblinkView.swift */; };
+		1E1CBB9F259129010001C51E /* RuneTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CBB9E259129010001C51E /* RuneTitleView.swift */; };
+		1E37B54E259179C700E9C081 /* TutorialHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B54D259179C700E9C081 /* TutorialHeaderView.swift */; };
 		1E71044325882C0000F26B9E /* RuneRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71044225882C0000F26B9E /* RuneRowView.swift */; };
 		1E71045425882D4C00F26B9E /* RuneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71045325882D4C00F26B9E /* RuneData.swift */; };
 		1E71047B258843FE00F26B9E /* RuneDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71047A258843FD00F26B9E /* RuneDetailView.swift */; };
 		1E7104862588443300F26B9E /* RuneCastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7104852588443300F26B9E /* RuneCastView.swift */; };
 		1E71048E2588446500F26B9E /* RuneSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71048D2588446500F26B9E /* RuneSettingsView.swift */; };
+		1E7D5CA62590F4420091FCAD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D5CA52590F4420091FCAD /* MainView.swift */; };
 		1E7E0BF22590D52A00061210 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E0BF12590D52A00061210 /* SettingsLabelView.swift */; };
 		1E7E0BF72590D59A00061210 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E0BF62590D59A00061210 /* SettingsRowView.swift */; };
 		1E7E0BFC2590D5CE00061210 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E0BFB2590D5CE00061210 /* SettingsView.swift */; };
 		1EA353082588474C00DDE399 /* RuneHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA353072588474C00DDE399 /* RuneHeaderView.swift */; };
+		1EAD25D6259135F8005374A9 /* RuneTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD25D5259135F8005374A9 /* RuneTutorialView.swift */; };
+		1EFD12AE2591638C001FFFC7 /* OneCastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD12AD2591638C001FFFC7 /* OneCastView.swift */; };
+		1EFD12B32591650E001FFFC7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD12B22591650E001FFFC7 /* ButtonView.swift */; };
+		1EFD12B825916897001FFFC7 /* ThreeCastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD12B725916896001FFFC7 /* ThreeCastView.swift */; };
+		1EFD12BD259168AE001FFFC7 /* FiveCastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD12BC259168AE001FFFC7 /* FiveCastView.swift */; };
+		1EFD12C825916E25001FFFC7 /* NineCastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD12C725916E25001FFFC7 /* NineCastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,15 +71,25 @@
 		1E1973A025819A080004E648 /* Rune Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rune Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1973A325819A080004E648 /* Rune Stickers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rune Stickers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1973A725819A080004E648 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Rune Stickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		1E1CBB992591167E0001C51E /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		1E1CBB9E259129010001C51E /* RuneTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneTitleView.swift; sourceTree = "<group>"; };
+		1E37B54D259179C700E9C081 /* TutorialHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialHeaderView.swift; sourceTree = "<group>"; };
 		1E71044225882C0000F26B9E /* RuneRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneRowView.swift; sourceTree = "<group>"; };
 		1E71045325882D4C00F26B9E /* RuneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneData.swift; sourceTree = "<group>"; };
 		1E71047A258843FD00F26B9E /* RuneDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneDetailView.swift; sourceTree = "<group>"; };
 		1E7104852588443300F26B9E /* RuneCastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneCastView.swift; sourceTree = "<group>"; };
 		1E71048D2588446500F26B9E /* RuneSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneSettingsView.swift; sourceTree = "<group>"; };
+		1E7D5CA52590F4420091FCAD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1E7E0BF12590D52A00061210 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		1E7E0BF62590D59A00061210 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		1E7E0BFB2590D5CE00061210 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1EA353072588474C00DDE399 /* RuneHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneHeaderView.swift; sourceTree = "<group>"; };
+		1EAD25D5259135F8005374A9 /* RuneTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneTutorialView.swift; sourceTree = "<group>"; };
+		1EFD12AD2591638C001FFFC7 /* OneCastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCastView.swift; sourceTree = "<group>"; };
+		1EFD12B22591650E001FFFC7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		1EFD12B725916896001FFFC7 /* ThreeCastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCastView.swift; sourceTree = "<group>"; };
+		1EFD12BC259168AE001FFFC7 /* FiveCastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveCastView.swift; sourceTree = "<group>"; };
+		1EFD12C725916E25001FFFC7 /* NineCastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineCastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +151,14 @@
 				1EA353072588474C00DDE399 /* RuneHeaderView.swift */,
 				1E7E0BF12590D52A00061210 /* SettingsLabelView.swift */,
 				1E7E0BF62590D59A00061210 /* SettingsRowView.swift */,
+				1E1CBB992591167E0001C51E /* ExternalWeblinkView.swift */,
+				1E1CBB9E259129010001C51E /* RuneTitleView.swift */,
+				1EFD12AD2591638C001FFFC7 /* OneCastView.swift */,
+				1EFD12B725916896001FFFC7 /* ThreeCastView.swift */,
+				1EFD12BC259168AE001FFFC7 /* FiveCastView.swift */,
+				1EFD12B22591650E001FFFC7 /* ButtonView.swift */,
+				1EFD12C725916E25001FFFC7 /* NineCastView.swift */,
+				1E37B54D259179C700E9C081 /* TutorialHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +180,8 @@
 				1E7104852588443300F26B9E /* RuneCastView.swift */,
 				1E71048D2588446500F26B9E /* RuneSettingsView.swift */,
 				1E7E0BFB2590D5CE00061210 /* SettingsView.swift */,
+				1E7D5CA52590F4420091FCAD /* MainView.swift */,
+				1EAD25D5259135F8005374A9 /* RuneTutorialView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -290,16 +320,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E197395258199310004E648 /* RuneModel.swift in Sources */,
+				1E7D5CA62590F4420091FCAD /* MainView.swift in Sources */,
+				1EFD12AE2591638C001FFFC7 /* OneCastView.swift in Sources */,
 				1E71047B258843FE00F26B9E /* RuneDetailView.swift in Sources */,
 				1E7E0BF22590D52A00061210 /* SettingsLabelView.swift in Sources */,
+				1E37B54E259179C700E9C081 /* TutorialHeaderView.swift in Sources */,
 				1E71048E2588446500F26B9E /* RuneSettingsView.swift in Sources */,
 				1E7104862588443300F26B9E /* RuneCastView.swift in Sources */,
+				1E1CBB9A2591167E0001C51E /* ExternalWeblinkView.swift in Sources */,
+				1EFD12C825916E25001FFFC7 /* NineCastView.swift in Sources */,
+				1EFD12B32591650E001FFFC7 /* ButtonView.swift in Sources */,
+				1EFD12BD259168AE001FFFC7 /* FiveCastView.swift in Sources */,
 				1E71044325882C0000F26B9E /* RuneRowView.swift in Sources */,
 				1E1973872581990D0004E648 /* ContentView.swift in Sources */,
 				1E7E0BF72590D59A00061210 /* SettingsRowView.swift in Sources */,
+				1EAD25D6259135F8005374A9 /* RuneTutorialView.swift in Sources */,
+				1E1CBB9F259129010001C51E /* RuneTitleView.swift in Sources */,
 				1E71045425882D4C00F26B9E /* RuneData.swift in Sources */,
 				1E7E0BFC2590D5CE00061210 /* SettingsView.swift in Sources */,
 				1E1973852581990D0004E648 /* Rune_CompanionApp.swift in Sources */,
+				1EFD12B825916897001FFFC7 /* ThreeCastView.swift in Sources */,
 				1EA353082588474C00DDE399 /* RuneHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

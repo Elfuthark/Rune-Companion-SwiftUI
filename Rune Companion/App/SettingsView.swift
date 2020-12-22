@@ -42,7 +42,7 @@ struct SettingsView: View {
           // MARK: - SECTION 2
           
           GroupBox(
-            label: SettingsLabelView(labelText: "Customisation", labelImage: "paintbrush")
+            label: SettingsLabelView(labelText: "Reversed Runes", labelImage: "paintbrush")
           ) {
             Divider().padding(.vertical, 4)
             

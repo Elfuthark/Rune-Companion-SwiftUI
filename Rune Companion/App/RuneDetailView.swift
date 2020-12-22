@@ -25,17 +25,16 @@ struct RuneDetailView: View {
                         RuneHeaderView(rune: rune)
                         Spacer()
                         // TITLE
-                        Text(rune.runeName)
-                            .font(.largeTitle)
-                            .fontWeight(.heavy)
-                            .foregroundColor(Color.black)
-                            .padding(.top, 40)
-                           // .offset(y: 60)
+                        RuneTitleView(rune: rune)
                         
                         // DESCRIPTION
                         Text(rune.runeDescription)
                             .multilineTextAlignment(.leading)
-                          //  .offset(y: 50)
+                            .padding(.bottom, 20)
+                        
+                        // Link
+                        ExternalWeblinkView(rune: rune)
+                            .padding(.bottom, 20)
                     } //: VSTACK
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: .center)
